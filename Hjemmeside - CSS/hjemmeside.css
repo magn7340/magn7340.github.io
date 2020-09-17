@@ -16,6 +16,11 @@ p.p3 {
 
 h1 {
     text-align: center;
+    padding: 20px;
+    border: 5px;
+    border-radius: 5px;
+    border-color: red;
+    border-style: solid;
 }
 
 p.p4 {
