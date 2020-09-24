@@ -4,6 +4,11 @@ body {
 
 h1 {
     text-align: center;
+    border: 5px;
+    border-radius: 5px;
+    border-color: red;
+    border-style: solid;
+    font-size: 50px;
 }
 
 p.p1 {
@@ -20,4 +25,43 @@ p.p3 {
 
 p.p4 {
     text-align: center;
+}
+
+.ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.li1 {
+    float: left;
+}
+
+.a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.li1 a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.li1 a:hover {
+    background-color: rgb(17, 17, 17);
+}
+
+.li1 a:hover:not(.active) {
+    background-color: rgb(17, 17, 17);
 }
