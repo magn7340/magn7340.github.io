@@ -2,27 +2,66 @@ body {
     background-color: rgb(219, 219, 219);
 }
 
-p.p1 {
+.p1 {
     text-align: center;
+    margin-top: 75px;
 }
 
-p.p2 {
+.button2 {
     text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(73, 73, 73);
+    border-radius: 5px;
+    font-size: 25px;
+    float: left;
+    border: 1px solid white;
+    padding: 5px 15px;
 }
 
-p.p3 {
+.button3 {
     text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(73, 73, 73);
+    border-radius: 5px;
+    font-size: 25px;
+    float: left;
+    border: 1px solid white;
+    padding: 5px 15px;
 }
 
 h1 {
     text-align: center;
-    padding: 20px;
     border: 5px;
     border-radius: 5px;
     border-color: red;
     border-style: solid;
+    font-size: 50px;
 }
 
-p.p4 {
+.p3 {
     text-align: center;
+}
+
+.ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(51, 51, 51);
+}
+
+.li {
+    display: inline;
+}
+
+.li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.li a:hover {
+    background-color: rgb(17, 17, 17);
 }
