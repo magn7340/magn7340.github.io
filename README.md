@@ -4,3 +4,4 @@
 - [Min opskrift](HTML/Opskrift/opskrift.html)
 - [Min profil](HTML/Profil/profil.html)
 - [Stickman](Stickman/)
+- [Stickman 2](Stickman-2)
