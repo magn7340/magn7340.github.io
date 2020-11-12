@@ -17,11 +17,11 @@ function draw() {
     }
     // Felt nederst til venstre
     if (!!mouseX <= width / 2 && mouseY >= height / 2) {
-        fill(255, 0, 0)
+        fill(255, 255, 255)
     }
     // Felt nederst til højre
-    if (!mouseX >= width / 2 && mouseY >= height / 2) {
-        fill(0, 0, 0)
+    if (!mouseX >= width / 2 || mouseY >= height / 2) {
+        fill(255, 0, 0)
     }
 
 }
